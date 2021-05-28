@@ -2,7 +2,7 @@
 
 The Cyclic Hello World Example App
 
-## Deploying
+## Deploy
 
 🍴 - Fork this repo
 
@@ -19,7 +19,15 @@ The Cyclic Hello World Example App
 The `/api` directory hosts all your path based api routes. Just add a file with
 
 ```javascript
-    module.exports.all = (req,res) => {
-        res.json({"Thats":"all you need 😝"})
-    }
+module.exports.all = (req,res) => {
+  res.json({"Thats":"all you need 😝"})
+}
 ```
+
+## FAQ
+
+### Where is the service?
+
+Your service lives at `${gh_owner}-${gh_repo}.cyclic-app.sh`
+
+You can also find it under the details of the Cyclic App status check on the commit.
